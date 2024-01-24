@@ -10,6 +10,9 @@
     "target": "ES2022",
     "strict": true,
     "allowJs": true,
+
+    // Was enabled here https://github.com/remix-run/remix/pull/8447
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
